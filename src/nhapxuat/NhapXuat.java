@@ -24,6 +24,10 @@ public class NhapXuat {
         Integer diem = Integer.parseInt(sc.nextLine());
         System.out.println("Moi ban nhap tuoi");
         Double tuoi = Double.parseDouble(sc.nextLine());
+        System.out.println("xuat ten:"+ten);
+        System.out.println("nhap diem"+diem);
+        System.out.println("nhap tuoi"+tuoi);
+        
     }
     
 }
