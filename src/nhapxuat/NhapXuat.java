@@ -4,6 +4,8 @@
  */
 package nhapxuat;
 
+import java.util.Scanner;
+
 /**
  *
  * @author KhanhCT
@@ -15,6 +17,13 @@ public class NhapXuat {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Moi ban nhap ten: ");
+        String ten = sc.nextLine();
+        System.out.println("Moi ban nhap diem: ");
+        Integer diem = Integer.parseInt(sc.nextLine());
+        System.out.println("Moi ban nhap tuoi");
+        Double tuoi = Double.parseDouble(sc.nextLine());
     }
     
 }
